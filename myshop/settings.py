@@ -149,3 +149,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # CELERY_RESULT_BACKEND = 'rpc://'  # or use Redis if you still want Redis for result backend
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_TASK_SERIALIZER = 'json'
+
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+REDIS_DB = 1
