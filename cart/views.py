@@ -44,4 +44,4 @@ def cart_detail(request):
         )
     else:
         recommended_products = []
-    return render(request,recommended_products 'cart/detail.html', {'cart': cart, 'coupon_apply_form': coupon_apply_form, 'recommended_products': })
+    return render(request, 'cart/detail.html', {'cart': cart, 'coupon_apply_form': coupon_apply_form, 'recommended_products': recommended_products})
